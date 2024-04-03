@@ -1,0 +1,184 @@
+/** Fantasy **/
+/*  Fondo utilizado para la ficha  */
+div.type-unit-amazons,    div.type-hero-amazons    { background-color: rgb(184, 175, 98);  background-image: url('../img/background/bg_unit_amazons.png'); }
+div.type-unit-barbarians, div.type-hero-barbarians { background-color: rgb(117, 142, 186); background-image: url('../img/background/bg_unit_barbarians.png'); }
+div.type-unit-dwarves,    div.type-hero-dwarves    { background-color: rgb(146, 115, 163); background-image: url('../img/background/bg_unit_dwarves.png'); }
+div.type-unit-daemons,    div.type-hero-daemons    { background-color: rgb(179, 115, 93);  background-image: url('../img/background/bg_unit_daemons.png'); }
+div.type-unit-elves,      div.type-hero-elves      { background-color: rgb(123, 162, 117); background-image: url('../img/background/bg_unit_elves.png'); }
+div.type-unit-orcs,       div.type-hero-orcs       { background-color: rgb(225, 128, 16);  background-image: url('../img/background/bg_unit_orcs.png'); }
+div.type-unit-undead,     div.type-hero-undead     { background-color: rgb(134, 134, 134); background-image: url('../img/background/bg_unit_undead.png'); }
+
+div.type-unit-mercenaries  { background-color: rgb(45, 43, 43);    background-image: url('../img/background/bg_unit_mercenaries.png'); }
+
+div.type-titan    { background-color: rgb(218, 218, 218); background-image: url('../img/background/bg_titan.png'); }
+div.type-building { background-color: rgb(222, 208, 180); background-image: url('../img/background/bg_building.png'); }
+
+div.counter-feudals    { background-color: rgb(227, 206, 156); background-image: url('../img/background/bg_unit_barbarians.png'); }
+div.counter-chaos      { background-color: rgb(33, 33, 33);    background-image: url('../img/background/bg_titan.png'); }
+div.counter-werebeast  { background-color: rgb(255, 237, 0);   background-image: url('../img/background/bg_titan.png'); }
+div.counter-treasures  { background-color: rgb(215, 233, 253); background-image: url('../img/background/bg_titan.png'); }
+div.counter-artifacts  { background-color: rgb(100, 59, 13);   background-image: url('../img/background/bg_titan.png'); }
+
+div.type-unit,
+div.type-hero,
+div.type-titan,
+div.type-building {
+    position: relative;
+    top: 0;
+    left: 0;
+    width:  512px;
+    height: 512px;
+    background-size: contain;
+}
+
+/** Fantasy **/
+/*  Estilos para cualquier ficha  */
+div.main-counter div.terrain-forest   { background-image: url('../img/icon/terrain_forest.png');   }
+div.main-counter div.terrain-plains   { background-image: url('../img/icon/terrain_plains.png');   }
+div.main-counter div.terrain-water    { background-image: url('../img/icon/terrain_water.png');    }
+div.main-counter div.terrain-city     { background-image: url('../img/icon/terrain_city.png');     }
+div.main-counter div.terrain-magic    { background-image: url('../img/icon/terrain_magic.png');    }
+div.main-counter div.terrain-desert   { background-image: url('../img/icon/terrain_desert.png');   }
+div.main-counter div.terrain-fly      { background-image: url('../img/icon/terrain_fly.png');      }
+div.main-counter div.terrain-mountain { background-image: url('../img/icon/terrain_mountain.png'); }
+
+div.main-counter div.cost,
+div.main-building div.gold {
+    position: absolute;
+    z-index: 10;
+    top: 34px;
+    left: 34px;
+    width:  96px;
+    height: 96px;
+    background-color: rgb(229, 205, 102);
+    border: 4px solid #59350a;
+    border-radius: 100px;
+    text-align: center;
+    font-family: scriptuale, serif;
+    line-height: 88px;
+    font-size: 84px;
+    color: #59350a;
+}
+
+div.main-counter div.name,
+div.main-counter div.wounded{
+    position: absolute;
+    z-index: 11;
+    top: 22px;
+    width: 512px;
+    font-family: scriptuale, serif;
+    line-height: 64px;
+    font-size: 58px;
+    text-align: right;
+    transform: scale(0.8, 1);
+    text-shadow: 0 0  5px #ffffff, 0 0  5px #ffffff, 0 0  5px #ffffff, 0 0  5px #ffffff,
+                 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 10px #ffffff,
+                 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff, 0 0 20px #ffffff;
+}
+
+div.main-counter div.wounded {
+    top: 80px;
+    line-height: 40px;
+    font-size: 40px;
+}
+
+div.main-counter div.attack,
+div.main-counter div.range,
+div.main-counter div.move,
+div.main-building div.mana {
+    position: absolute;
+    z-index: 12;
+    top: 152px;
+    left: 380px;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid #000000;
+    border-radius: 100px;
+    text-align: center;
+    font-family: scriptuale, serif;
+    line-height: 88px;
+    font-size: 84px;
+    color: #000000;
+}
+
+div.main-counter div.move {
+    top: 266px;
+    left: 380px;
+}
+
+div.main-counter div.range {
+    top: 380px;
+    left: 380px;
+    background-color: #000000;
+    border: 4px solid #ffffff;
+    color: #ffffff;
+}
+
+div.main-counter div.symbol {
+    z-index: 13;
+    position: absolute;
+    top: 326px;
+    left: 28px;
+    text-align: left;
+    font-family: scriptuale, serif;
+    line-height: 64px;
+    font-size: 64px;
+    transform: scale(0.7, 1);
+    text-shadow: 0 0  5px #000, 0 0  5px #000, 0 0  5px #000, 0 0  5px #000,
+                 0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000,
+                 0 0 15px #000, 0 0 15px #000, 0 0 15px #000, 0 0 15px #000;
+    color: #ffffff;
+}
+
+div.main-counter div.speed {
+    position: absolute;
+    z-index: 14;
+    top: 396px;
+    left: 34px;
+    width:  160px;
+    height: 80px;
+    background-color: #ffffff;
+    border: 4px solid black;
+    border-radius: 12px;
+}
+
+div.main-counter div.speed div.value {
+    position: absolute;
+    width:  82px;
+    height: 74px;
+    font-family: scriptuale, serif;
+    text-align: center;
+    line-height: 76px;
+    font-size: 78px;
+    transform: scale(0.8, 1);
+    color: #000000;
+}
+
+div.main-counter div.speed div.terrain {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:  68px;
+    height: 68px;
+    left: 76px;
+    top: 2px;
+}
+
+div.main-counter div.art,
+div.main-building div.art {
+    position: absolute;
+    width:  500px;
+    height: 500px;
+    top: 6px;
+    left: 6px;
+    background-size: contain;
+}
+
+div.main-counter div.wounded,
+div.main-counter div.name-wounded,
+div.main-counter div.attack-wounded,
+div.main-counter div.range-wounded,
+div.main-counter div.move-wounded {
+    color: #ff2f2f;
+}

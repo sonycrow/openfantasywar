@@ -1,2 +1,5 @@
-# openfantasywar
-Open Fantasy War - Wargame
+# ofw
+
+Devel: `npm run dev`
+
+Build: `npm run build`

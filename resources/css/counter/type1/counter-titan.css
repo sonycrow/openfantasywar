@@ -67,3 +67,10 @@ div.type-titan div.speed div.terrain {
     left: 66px;
     top: 2px;
 }
+
+div.type-titan div.art {
+    width:  512px;
+    height: 512px;
+    top: 0;
+    left: 0;
+}

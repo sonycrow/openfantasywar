@@ -1,23 +1,23 @@
 /** Fantasy **/
 /*  Fondo utilizado para la ficha  */
-div.type-unit-amazons,    div.type-hero-amazons    { background-color: rgb(184, 175, 98);  background-image: url('../img/background/bg_unit_amazons.png'); }
-div.type-unit-barbarians, div.type-hero-barbarians { background-color: rgb(117, 142, 186); background-image: url('../img/background/bg_unit_barbarians.png'); }
-div.type-unit-dwarves,    div.type-hero-dwarves    { background-color: rgb(146, 115, 163); background-image: url('../img/background/bg_unit_dwarves.png'); }
-div.type-unit-daemons,    div.type-hero-daemons    { background-color: rgb(179, 115, 93);  background-image: url('../img/background/bg_unit_daemons.png'); }
-div.type-unit-elves,      div.type-hero-elves      { background-color: rgb(123, 162, 117); background-image: url('../img/background/bg_unit_elves.png'); }
-div.type-unit-orcs,       div.type-hero-orcs       { background-color: rgb(225, 128, 16);  background-image: url('../img/background/bg_unit_orcs.png'); }
-div.type-unit-undead,     div.type-hero-undead     { background-color: rgb(134, 134, 134); background-image: url('../img/background/bg_unit_undead.png'); }
+div.type-unit-amazons,    div.type-hero-amazons    { background-color: rgb(184, 175, 98);  background-image: url('resources/img/background/bg_unit_amazons.png'); }
+div.type-unit-barbarians, div.type-hero-barbarians { background-color: rgb(117, 142, 186); background-image: url('resources/img/background/bg_unit_barbarians.png'); }
+div.type-unit-dwarves,    div.type-hero-dwarves    { background-color: rgb(146, 115, 163); background-image: url('resources/img/background/bg_unit_dwarves.png'); }
+div.type-unit-daemons,    div.type-hero-daemons    { background-color: rgb(179, 115, 93);  background-image: url('resources/img/background/bg_unit_daemons.png'); }
+div.type-unit-elves,      div.type-hero-elves      { background-color: rgb(123, 162, 117); background-image: url('resources/img/background/bg_unit_elves.png'); }
+div.type-unit-orcs,       div.type-hero-orcs       { background-color: rgb(225, 128, 16);  background-image: url('resources/img/background/bg_unit_orcs.png'); }
+div.type-unit-undead,     div.type-hero-undead     { background-color: rgb(134, 134, 134); background-image: url('resources/img/background/bg_unit_undead.png'); }
 
-div.type-unit-mercenaries  { background-color: rgb(45, 43, 43);    background-image: url('../img/background/bg_unit_mercenaries.png'); }
+div.type-unit-mercenaries  { background-color: rgb(45, 43, 43);    background-image: url('resources/img/background/bg_unit_mercenaries.png'); }
 
-div.type-titan    { background-color: rgb(218, 218, 218); background-image: url('../img/background/bg_titan.png'); }
-div.type-building { background-color: rgb(222, 208, 180); background-image: url('../img/background/bg_building.png'); }
+div.type-titan    { background-color: rgb(218, 218, 218); background-image: url('resources/img/background/bg_titan.png'); }
+div.type-building { background-color: rgb(222, 208, 180); background-image: url('resources/img/background/bg_building.png'); }
 
-div.counter-feudals    { background-color: rgb(227, 206, 156); background-image: url('../img/background/bg_unit_barbarians.png'); }
-div.counter-chaos      { background-color: rgb(33, 33, 33);    background-image: url('../img/background/bg_titan.png'); }
-div.counter-werebeast  { background-color: rgb(255, 237, 0);   background-image: url('../img/background/bg_titan.png'); }
-div.counter-treasures  { background-color: rgb(215, 233, 253); background-image: url('../img/background/bg_titan.png'); }
-div.counter-artifacts  { background-color: rgb(100, 59, 13);   background-image: url('../img/background/bg_titan.png'); }
+div.counter-feudals    { background-color: rgb(227, 206, 156); background-image: url('resources/img/background/bg_unit_barbarians.png'); }
+div.counter-chaos      { background-color: rgb(33, 33, 33);    background-image: url('resources/img/background/bg_titan.png'); }
+div.counter-werebeast  { background-color: rgb(255, 237, 0);   background-image: url('resources/img/background/bg_titan.png'); }
+div.counter-treasures  { background-color: rgb(215, 233, 253); background-image: url('resources/img/background/bg_titan.png'); }
+div.counter-artifacts  { background-color: rgb(100, 59, 13);   background-image: url('resources/img/background/bg_titan.png'); }
 
 div.type-unit,
 div.type-hero,
@@ -33,14 +33,14 @@ div.type-building {
 
 /** Fantasy **/
 /*  Estilos para cualquier ficha  */
-div.main-counter div.terrain-forest   { background-image: url('../img/icon/terrain_forest.png');   }
-div.main-counter div.terrain-plains   { background-image: url('../img/icon/terrain_plains.png');   }
-div.main-counter div.terrain-water    { background-image: url('../img/icon/terrain_water.png');    }
-div.main-counter div.terrain-city     { background-image: url('../img/icon/terrain_city.png');     }
-div.main-counter div.terrain-magic    { background-image: url('../img/icon/terrain_magic.png');    }
-div.main-counter div.terrain-desert   { background-image: url('../img/icon/terrain_desert.png');   }
-div.main-counter div.terrain-fly      { background-image: url('../img/icon/terrain_fly.png');      }
-div.main-counter div.terrain-mountain { background-image: url('../img/icon/terrain_mountain.png'); }
+div.main-counter div.terrain-forest   { background-image: url('resources/img/icon/terrain_forest.png');   }
+div.main-counter div.terrain-plains   { background-image: url('resources/img/icon/terrain_plains.png');   }
+div.main-counter div.terrain-water    { background-image: url('resources/img/icon/terrain_water.png');    }
+div.main-counter div.terrain-city     { background-image: url('resources/img/icon/terrain_city.png');     }
+div.main-counter div.terrain-magic    { background-image: url('resources/img/icon/terrain_magic.png');    }
+div.main-counter div.terrain-desert   { background-image: url('resources/img/icon/terrain_desert.png');   }
+div.main-counter div.terrain-fly      { background-image: url('resources/img/icon/terrain_fly.png');      }
+div.main-counter div.terrain-mountain { background-image: url('resources/img/icon/terrain_mountain.png'); }
 
 div.main-counter div.cost,
 div.main-building div.gold {

@@ -1,0 +1,76 @@
+div.type-titan div.cost {
+    width:  92px;
+    height: 92px;
+    line-height: 80px;
+    font-size: 70px;
+}
+
+div.type-titan div.name,
+div.type-titan div.wounded{
+    top: 22px;
+    width: 512px;
+    line-height: 64px;
+    font-size: 48px;
+}
+
+div.type-titan div.wounded {
+    top: 74px;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+div.type-titan div.attack,
+div.type-titan div.range,
+div.type-titan div.move {
+    top: 164px;
+    left: 388px;
+    width:  88px;
+    height: 88px;
+    line-height: 76px;
+    font-size: 70px;
+}
+
+div.type-titan div.move {
+    top: 278px;
+    left: 388px;
+}
+
+div.type-titan div.range {
+    top: 388px;
+    left: 388px;
+}
+
+div.type-titan div.symbol {
+    top: 336px;
+    left: 34px;
+    line-height: 64px;
+    font-size: 58px;
+    transform: scale(1, 1);
+}
+
+div.type-titan div.speed {
+    top: 404px;
+    left: 34px;
+    width:  142px;
+    height: 72px;
+}
+
+div.type-titan div.speed div.value {
+    width: 64px;
+    line-height: 62px;
+    font-size: 68px;
+}
+
+div.type-titan div.speed div.terrain {
+    width:  58px;
+    height: 68px;
+    left: 66px;
+    top: 2px;
+}
+
+div.type-titan div.art {
+    width:  512px;
+    height: 512px;
+    top: 0;
+    left: 0;
+}

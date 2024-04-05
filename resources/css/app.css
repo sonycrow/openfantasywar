@@ -1,8 +1,8 @@
 @import "global.css";
 
-@import "counter-unit.css";
-@import "counter-titan.css";
-@import "counter-building.css";
+@import "counter/type2/counter-unit.css";
+@import "counter/type2/counter-titan.css";
+@import "counter/type2/counter-building.css";
 
 @tailwind base;
 @tailwind components;

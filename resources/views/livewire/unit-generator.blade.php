@@ -31,6 +31,8 @@
         <button x-on:click="generateImages" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 p-1">Generar</button>
     </div>
 
+{{--    {{ $faction = 'mercenaries' }}--}}
+
     <div class="grid grid-cols-3" style="width: {{ ($tts ? 288*4 : 512*3) }}px;">
         {{-- Livewire --}}
         @if(in_array($faction, array('titan', 'building')))

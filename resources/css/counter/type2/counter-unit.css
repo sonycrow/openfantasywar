@@ -131,14 +131,14 @@ div.main-counter div.stats {
 div.main-counter div.symbol {
     z-index: 13;
     position: absolute;
-    top: 310px;
-    left: 382px;
-    text-align: right;
-    width: 100px;
+    top: 428px;
+    left: 126px;
+    text-align: left;
+    width: 60px;
     font-family: scriptuale, serif;
-    line-height: 64px;
-    font-size: 64px;
-    transform: scale(0.7, 1);
+    line-height: 54px;
+    font-size: 54px;
+    transform: scale(0.4, 1);
     text-shadow: 0 0  5px #000, 0 0  5px #000, 0 0  5px #000, 0 0  5px #000,
                  0 0 10px #000, 0 0 10px #000, 0 0 10px #000, 0 0 10px #000,
                  0 0 15px #000, 0 0 15px #000, 0 0 15px #000, 0 0 15px #000;

@@ -19,7 +19,7 @@
                 @endfor
             </div>
             <div class="terrain terrain-{{ $unit['terrain'] }}"></div>
-{{--            <div class="symbol">{{ (isset($unit['symbol']) ? Str::upper($unit['symbol']) : null) }}</div>--}}
+            <div class="symbol">{{ (isset($unit['symbol']) ? Str::upper($unit['symbol']) : null) }}</div>
 
         <div class="line-bottom"></div>
 {{--            <div @class(['attack', 'attack-wounded' => $unit['wounded']])>{{ $unit['atk'] }}</div>--}}

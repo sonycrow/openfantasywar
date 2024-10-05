@@ -75,11 +75,11 @@ class CodexServiceProvider extends ServiceProvider
         return $units;
     }
 
-    public static function getUnitsByFaction(?string $faction): array
+    public static function getUnitsByFaction(?string $faction = null): array
     {
         $units = array();
 
-        if (!$faction) return $units;
+        if (!$faction) return self::$codex;
 
         foreach (self::$codex as $item) {
             if (isset($item['faction']) && $item['faction'] == $faction) {
@@ -95,9 +95,7 @@ class CodexServiceProvider extends ServiceProvider
         if (in_array($unit['type'], array('building'))) return null;
 
         $plus = $unit['faction'] == "mercenaries" ? 1 : 0;
-
-        $speedcost = array("s" => 4, "a" => 3, "b" => 2, "c" => 1, "d" => 0);
-        return $speedcost[strtolower($unit['speed'])] + $unit['atk'] + $unit['range'] + $unit['move'] + $plus - 3;
+        return $unit['speed'] + $unit['atk'] + $unit['range'] + $unit['move'] + $plus - 3;
     }
 
 }

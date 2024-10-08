@@ -1,7 +1,9 @@
 @import "global.css";
 
-@import "counter/type2/counter-unit.css";
-@import "counter/type2/counter-building.css";
+@import "counter/unit.css";
+@import "counter/unit-titan.css";
+
+@import "card/location.css";
 
 @tailwind base;
 @tailwind components;

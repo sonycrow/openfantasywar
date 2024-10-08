@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire;
 
-use App\Providers\CodexServiceProvider;
+use App\Providers\UnitServiceProvider;
 use Livewire\Component;
 
 class Unit extends Component
@@ -15,7 +15,7 @@ class Unit extends Component
     public function mount(string $id)
     {
         // Datos de la unidad
-        $this->unit = CodexServiceProvider::getUnit($id);
+        $this->unit = UnitServiceProvider::getUnit($id);
     }
 
     /**

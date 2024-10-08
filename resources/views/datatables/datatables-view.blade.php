@@ -67,8 +67,8 @@
                 <select class="shadow rounded-lg inline-flex items-center bg-white hover:text-blue-500 focus:outline-none focus:shadow-outline text-gray-500 font-semibold py-2 px-2 md:px-4"
                         x-data
                         @change="window.location.href = '/lang/' + $event.target.value">
-                    <option value="es" {{ session('locale') == 'es' ? 'selected' : '' }}>ES</option>
-                    <option value="en" {{ session('locale') == 'en' ? 'selected' : '' }}>EN</option>
+                    <option value="es" {{ App::isLocale('es') ? 'selected' : '' }}>ES</option>
+                    <option value="en" {{ App::isLocale('en') ? 'selected' : '' }}>EN</option>
                 </select>
             </div>
 

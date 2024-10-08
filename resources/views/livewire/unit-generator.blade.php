@@ -7,12 +7,7 @@
                     x-on:change.debounce="generateImages"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-1"
                 >
-                    <option>·· Fantasy Counters ··</option>
-                    <option value="titan">Titans</option>
-                    <option value="mercenaries">Mercenaries</option>
-                    <option value="building">Buildings</option>
-
-                    <option>·· Fantasy Factions ··</option>
+                    <option value="">·· Fantasy Factions ··</option>
                     <option value="amazons">Amazons</option>
                     <option value="barbarians">Barbarians</option>
                     <option value="daemons">Daemons</option>
@@ -23,24 +18,41 @@
                 </select>
             </label>
         </div>
+        <div class="mr-4">
+            <label>
+                <select
+                    wire:model="expansion"
+                    x-on:change.debounce="generateImages"
+                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-1"
+                >
+                    <option value="">·· Fantasy Expansions ··</option>
+                    <option value="heroes">Heroes</option>
+                    <option value="inferno">Inferno</option>
+                    <option value="mercenaries">Mercenaries</option>
+                    <option value="titans">Titans</option>
+                </select>
+            </label>
+        </div>
 
-        <div class="mr-4"><label><input wire:model="tts" type="checkbox" class="mr-1" /><span>Formato TTS</span></label></div>
-        <div class="mr-4"><label><input wire:model="toimage"  id="toimage"  type="checkbox" class="mr-1" /><span>Generar imágenes</span></label></div>
-        <div class="mr-4"><label><input wire:model="download" id="download" type="checkbox" class="mr-1" /><span>Descargar imágenes</span></label></div>
+        <div class="mr-4"><label><input wire:model="tts" type="checkbox" class="mr-1"/><span>Formato TTS</span></label></div>
+        <div class="mr-4"><label><input wire:model="toimage" id="toimage" type="checkbox" class="mr-1"/><span>Generar imágenes</span></label></div>
+        <div class="mr-4"><label><input wire:model="download" id="download" type="checkbox" class="mr-1"/><span>Descargar imágenes</span></label></div>
 
-        <button x-on:click="generateImages" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 p-1">Generar</button>
+        <button x-on:click="generateImages" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 p-1">
+            Generar
+        </button>
     </div>
 
-{{--    {{ $faction = 'mercenaries' }}--}}
+    {{--    {{ $expansion = 'mercenaries' }}--}}
 
     <div class="grid grid-cols-3" style="width: {{ ($tts ? 288*4 : 512*3) }}px;">
         {{-- Livewire --}}
-        @if(in_array($faction, array('titan', 'building')))
-            @foreach (\App\Providers\CodexServiceProvider::getUnitsByType($faction) as $item)
+        @if(empty($expansion))
+            @foreach (\App\Providers\UnitServiceProvider::getUnitsByFaction($faction) as $item)
                 @livewire('unit', ['id' => $item['id'], 'tts' => $tts], key($item['id']))
             @endforeach
         @else
-            @foreach (\App\Providers\CodexServiceProvider::getUnitsByFaction($faction) as $item)
+            @foreach (\App\Providers\UnitServiceProvider::getUnitsByExpansion($expansion) as $item)
                 @livewire('unit', ['id' => $item['id'], 'tts' => $tts], key($item['id']))
             @endforeach
         @endif
@@ -64,7 +76,7 @@
 
                             // Descarga de imagenes
                             if (document.getElementById('download').checked) {
-                                img.onclick = function() {
+                                img.onclick = function () {
                                     let link = document.createElement('a');
                                     link.download = counterId + '.png';
                                     link.href = dataUrl;
@@ -83,5 +95,3 @@
         }
     </script>
 </div>
-
-

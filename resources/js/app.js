@@ -3,6 +3,6 @@ import './unit';
 
 import.meta.glob([
     '../art/**',
-    '../sticker/**',
+    '../game/**',
     '../fonts/**',
 ]);

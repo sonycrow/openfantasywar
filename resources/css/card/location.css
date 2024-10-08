@@ -1,0 +1,168 @@
+div.main-card div.type-location {
+    position: relative;
+    top: 0;
+    left: 0;
+    width:  756px;
+    height: 1036px;
+    background-color: rgb(248, 248, 248);
+    overflow: hidden;
+}
+
+div.main-card div.type-location div.art {
+    position: absolute;
+    width:  756px;
+    height: 1036px;
+    background-size: cover;
+    background-position: center;
+}
+
+div.main-card div.type-location div.name {
+    position: absolute;
+    top: 58px;
+    left: 58px;
+    border: 4px solid rgb(255,255,255);
+    width: 640px;
+    height: 62px;
+    border-radius: 40px;
+    font-family: scriptuale-s, serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: -4px -4px 10px 0 rgba(0,0,0,0.75);
+    text-align: center;
+    text-shadow: 0 0  5px #000, 0 0  5px #000, 0 0  5px #000, 0 0  5px #000;
+}
+
+div.main-card div.type-location div.type {
+    position: absolute;
+    top: 560px;
+    width:  756px;
+    height: 50px;
+    border-top: 4px solid rgb(255,255,255);
+    border-bottom: 4px solid rgb(255,255,255);
+    text-align: center;
+    text-shadow: 0 0  5px #000, 0 0  5px #000, 0 0  5px #000, 0 0  5px #000;
+    font-family: scriptuale-s, serif;
+    font-size: 28px;
+    line-height: 44px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 -4px 10px 0 rgba(0,0,0,0.75);
+}
+
+div.main-card div.type-location div.gold,
+div.main-card div.type-location div.mana,
+div.main-card div.type-location div.entrance,
+div.main-card div.type-location div.terrain {
+    position: absolute;
+    width:  80px;
+    height: 80px;
+    left: 646px;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    border: 4px solid white;
+    border-radius: 100px;
+    text-align: center;
+    text-shadow: 0 0  5px #000, 0 0  5px #000, 0 0  5px #000, 0 0  5px #000;
+    font-family: scriptuale-b, serif;
+    font-size: 68px;
+    line-height: 68px;
+    color: rgb(255, 255, 255);
+    box-shadow: -2px -4px 5px 0 rgba(0,0,0,0.75);
+}
+
+div.main-card div.type-location div.text {
+    position: absolute;
+    top:    610px;
+    width:  756px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 4px solid rgb(255,255,255);
+}
+
+div.main-card div.type-location div.text div.terrain-icon {
+    position: absolute;
+    width:  756px;
+    height: 300px;
+    background-size: 36%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+
+div.main-card div.type-location div.text div.desc,
+div.main-card div.type-location div.text div.lore {
+    width:  756px;
+    height: 224px;
+    padding: 24px;
+    font-size: 32px;
+    line-height: 34px;
+    font-family: scriptuale-s, serif;
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+}
+
+div.main-card div.type-location div.text div.lore {
+    top: 230px;
+    width: 756px;
+    height: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 26px;
+    line-height: 28px;
+    font-family: scriptuale, serif;
+    font-style: italic;
+    text-align: center;
+    vertical-align: bottom;
+    display: flex;
+}
+
+div.main-card div.type-location div.text div.lore div {
+    align-self: flex-end;
+}
+
+div.main-card div.type-location div.gold {
+    top: 520px;
+    left: 32px;
+    text-shadow: none;
+    background-color: rgba(229, 205, 102, 1);
+    border: 4px solid #59350a;
+    color: #59350a;
+    z-index: 20;
+}
+
+div.main-card div.type-location div.mana {
+    top: 520px;
+    text-shadow: none;
+    background-color: rgba(156, 203, 255, 1);
+    border: 4px solid #046ac4;
+    color: #046ac4;
+    z-index: 20;
+}
+
+div.main-card div.type-location div.entrance {
+    top: 934px;
+    left: 32px;
+    border-radius: 18px;
+}
+
+div.main-card div.type-location div.terrain {
+    top: 934px;
+    border-radius: 18px;
+}
+
+div.main-card div.type-location-plains   div.name, div.main-card div.type-location-plains   div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(239,165,62,0.9) 30%, rgba(239,165,62,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.type-location-forest   div.name, div.main-card div.type-location-forest   div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(42,120,15,0.9) 30%, rgba(42,120,15,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.type-location-water    div.name, div.main-card div.type-location-water    div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(3,91,198,0.9) 30%, rgba(3,91,198,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.type-location-mountain div.name, div.main-card div.type-location-mountain div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(144,92,49,0.9) 30%, rgba(144,92,49,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.type-location-desert   div.name, div.main-card div.type-location-desert   div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(232, 218, 66, 0.9) 30%, rgba(232, 218, 66,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.type-location-city     div.name, div.main-card div.type-location-city     div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(42,42,42,0.9) 30%, rgba(42,42,42,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+
+div.main-card div.type-location-plains   div.terrain, div.main-card div.type-location-plains   div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_plains.png'); }
+div.main-card div.type-location-forest   div.terrain, div.main-card div.type-location-forest   div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_forest.png'); }
+div.main-card div.type-location-water    div.terrain, div.main-card div.type-location-water    div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_water.png'); }
+div.main-card div.type-location-mountain div.terrain, div.main-card div.type-location-mountain div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_mountain.png'); }
+div.main-card div.type-location-desert   div.terrain, div.main-card div.type-location-desert   div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_desert.png'); }
+div.main-card div.type-location-city     div.terrain, div.main-card div.type-location-city     div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_city.png'); }

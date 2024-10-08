@@ -1,0 +1,6 @@
+/*Titans*/
+/*Sobreescrituras para las fichas de titanes*/
+div.counter-titans div.cost {
+    font-size: 76px;
+    line-height: 90px;
+}

@@ -57,13 +57,13 @@
                 <h3 class="mb-2 text-xs font-medium uppercase text-gray-600">Game</h3>
                 <ul class="mb-8 text-sm font-medium">
                     <li>
-                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/codex">
-                            <span class="select-none">Codex</span>
+                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/units">
+                            <span class="select-none">Units</span>
                         </a>
                     </li>
                     <li>
-                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/units">
-                            <span class="select-none">Units</span>
+                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/locations">
+                            <span class="select-none">Locations</span>
                         </a>
                     </li>
                     <li>
@@ -80,13 +80,13 @@
                 <h3 class="mb-2 text-xs font-medium uppercase text-gray-600">Tools</h3>
                 <ul class="mb-8 text-sm font-medium">
                     <li>
-                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/decklist">
-                            <span class="select-none">Deck builder</span>
+                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/units-builder">
+                            <span class="select-none">Units builder</span>
                         </a>
                     </li>
                     <li>
-                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/cards">
-                            <span class="select-none">Card generator</span>
+                        <a class="flex items-center rounded py-3 pl-3 pr-4 text-gray-800 hover:bg-gray-300" href="/locations-builder">
+                            <span class="select-none">Locations builder</span>
                         </a>
                     </li>
                 </ul>

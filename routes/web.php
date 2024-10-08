@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,17 +19,16 @@ Route::get('/', function () {
 });
 
 // Idioma (locale)
-Route::get('/lang/{locale}', function ($locale) {
+Route::get('/lang/{locale}', function ($locale)
+{
+    if (!in_array($locale, ['en', 'es'])) {
+        abort(400);
+    }
+
     session()->put('locale', $locale);
+    App::setLocale($locale);
+
     return redirect()->back();
-});
-
-Route::get('/units}', function () {
-    return view('units');
-});
-
-Route::get('/armies}', function () {
-    return view('armies');
 });
 
 /*

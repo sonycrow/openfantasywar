@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire;
 
-use App\Providers\CodexServiceProvider;
+use App\Providers\UnitServiceProvider;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
@@ -35,7 +35,7 @@ class TableArmies extends Component
      */
     public function render()
     {
-        return view('livewire.table-codex');
+        return view('livewire.unit-table');
     }
 
     /**
@@ -70,7 +70,7 @@ class TableArmies extends Component
             $units = '';
 
             foreach ($army['unit'] as $i) {
-                $unit   = CodexServiceProvider::getUnit($i['id']);
+                $unit   = UnitServiceProvider::getUnit($i['id']);
                 $cbase += $unit['cost'] * $i['amount'];
                 $cfull += ($unit['cost'] * $unit['steps']) * $i['amount'];
                 $num   += $i['amount'];

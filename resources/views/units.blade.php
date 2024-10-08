@@ -22,7 +22,7 @@
         @include('subviews.navbar')
         <main class="p-4">
             {{-- Livewire --}}
-            @livewire('unit-generator')
+            @livewire('unit-table')
         </main>
 
         {{-- Scripts de livewire --}}

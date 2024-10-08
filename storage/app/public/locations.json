@@ -1,0 +1,418 @@
+{
+    "location": [
+        {
+            "universe": "fantasy",
+            "code": "twistedforest",
+            "name": {
+                "en": "Twisted forest",
+                "es": "Bosque retorcido"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades [fly] no obtienen ninguna bonificación en esta localización."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un bosque antiguo y misterioso, donde los árboles tienen formas extrañas y retorcidas."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "forest",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "shadowjungle",
+            "name": {
+                "en": "Shadow jungle",
+                "es": "Selva de las sombras"
+            },
+            "text": {
+                "en": "",
+                "es": "Las unidades con {range} fuera de esta localización no pueden atacar a unidades en ella."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una selva densa y oscura, hogar de criaturas nocturnas y peligrosas."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "forest",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "thundersummit",
+            "name": {
+                "en": "Thunder summit",
+                "es": "Cumbre del trueno"
+            },
+            "text": {
+                "en": "",
+                "es": "Una montaña alta que siempre está envuelta en tormentas eléctricas."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una montaña alta que siempre está envuelta en tormentas eléctricas."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 1,
+            "terrain": "mountain",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "frozenpeaks",
+            "name": {
+                "en": "Frozen peaks",
+                "es": "Picos helados"
+            },
+            "text": {
+                "en": "",
+                "es": "Montañas cubiertas de nieve y hielo perpetuo con temperaturas extremadamente bajas."
+            },
+            "lore": {
+                "en": "",
+                "es": "Montañas cubiertas de nieve y hielo perpetuo con temperaturas extremadamente bajas."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "mountain",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "valleyofgiants",
+            "name": {
+                "en": "Valley of giants",
+                "es": "Valle de los gigantes"
+            },
+            "text": {
+                "en": "",
+                "es": "Un valle entre montañas donde se dice que viven gigantes."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un valle entre montañas donde se dice que viven gigantes."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "mountain",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "spectrallake",
+            "name": {
+                "en": "Spectral lake",
+                "es": "Lago espectral"
+            },
+            "text": {
+                "en": "",
+                "es": "Un lago misterioso con aguas cristalinas que reflejan las estrellas incluso durante el día."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un lago misterioso con aguas cristalinas que reflejan las estrellas incluso durante el día."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "water",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "serpentriver",
+            "name": {
+                "en": "Serpent river",
+                "es": "Río de la serpiente"
+            },
+            "text": {
+                "en": "",
+                "es": "Un río serpenteante que atraviesa el bosque, conocido por sus corrientes rápidas y peligrosas."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un río serpenteante que atraviesa el bosque, conocido por sus corrientes rápidas y peligrosas."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "water",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "goldenplains",
+            "name": {
+                "en": "Golden plains",
+                "es": "Llanuras doradas"
+            },
+            "text": {
+                "en": "",
+                "es": "Extensas llanuras cubiertas de hierba dorada, perfectas para grandes batallas."
+            },
+            "lore": {
+                "en": "",
+                "es": "Extensas llanuras cubiertas de hierba dorada, perfectas para grandes batallas."
+            },
+            "entrance": 1,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "plains",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "centaurprairie",
+            "name": {
+                "en": "Centaur prairie",
+                "es": "Pradera de los centauros"
+            },
+            "text": {
+                "en": "",
+                "es": "Una pradera vasta y abierta, hogar de tribus de centauros."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una pradera vasta y abierta, hogar de tribus de centauros."
+            },
+            "entrance": 1,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "plains",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "magetower",
+            "name": {
+                "en": "Mage tower",
+                "es": "Torre de mago"
+            },
+            "text": {
+                "en": "",
+                "es": "La torre de mago con una fuente de poder."
+            },
+            "lore": {
+                "en": "",
+                "es": "La torre de mago con una fuente de poder."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 2,
+            "terrain": "plains",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "wheatfield",
+            "name": {
+                "en": "Wheat field",
+                "es": "Campo de trigo"
+            },
+            "text": {
+                "en": "",
+                "es": "Un hermoso campo de trigo."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un hermoso campo de trigo."
+            },
+            "entrance": 1,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "plains",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "ironcitadel",
+            "name": {
+                "en": "Iron citadel",
+                "es": "Ciudadela de hierro"
+            },
+            "text": {
+                "en": "",
+                "es": "Una ciudad fortificada con altas murallas y torres de vigilancia."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una ciudad fortificada con altas murallas y torres de vigilancia."
+            },
+            "entrance": 3,
+            "reinforcements": 2,
+            "gold": 3,
+            "mana": 2,
+            "terrain": "city",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "cityofmages",
+            "name": {
+                "en": "City of mages",
+                "es": "Ciudad de los magos"
+            },
+            "text": {
+                "en": "",
+                "es": "Una ciudad donde la magia es parte de la vida cotidiana, con torres de hechiceros y academias de magia."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una ciudad donde la magia es parte de la vida cotidiana, con torres de hechiceros y academias de magia."
+            },
+            "entrance": 3,
+            "reinforcements": 2,
+            "gold": 2,
+            "mana": 2,
+            "terrain": "city",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "puente",
+            "name": {
+                "en": "",
+                "es": "Puente"
+            },
+            "text": {
+                "en": "",
+                "es": "Una ciudad donde la magia es parte de la vida cotidiana, con torres de hechiceros y academias de magia."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una ciudad donde la magia es parte de la vida cotidiana, con torres de hechiceros y academias de magia."
+            },
+            "entrance": 3,
+            "reinforcements": 2,
+            "gold": 1,
+            "mana": 0,
+            "terrain": "city",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "ruinas",
+            "name": {
+                "en": "",
+                "es": "Ruinas"
+            },
+            "text": {
+                "en": "",
+                "es": "Una ciudad donde la magia es parte de la vida cotidiana, con torres de hechiceros y academias de magia."
+            },
+            "lore": {
+                "en": "",
+                "es": "Una ciudad donde la magia es parte de la vida cotidiana, con torres de hechiceros y academias de magia."
+            },
+            "entrance": 3,
+            "reinforcements": 2,
+            "gold": 1,
+            "mana": 0,
+            "terrain": "city",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "desertoflostsouls",
+            "name": {
+                "en": "Desert of lost souls",
+                "es": "Desierto de las almas perdidas"
+            },
+            "text": {
+                "en": "",
+                "es": "Un desierto vasto y desolado, donde se dice que las almas de los perdidos vagan eternamente."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un desierto vasto y desolado, donde se dice que las almas de los perdidos vagan eternamente."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "desert",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "skeletondesert",
+            "name": {
+                "en": "Skeleton desert",
+                "es": "Desierto de los esqueletos"
+            },
+            "text": {
+                "en": "",
+                "es": "Un desierto lleno de restos de antiguas batallas, con huesos y armas esparcidos por todas partes."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un desierto lleno de restos de antiguas batallas, con huesos y armas esparcidos por todas partes."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 0,
+            "mana": 0,
+            "terrain": "desert",
+            "expansion": "base",
+            "version": 1
+        },
+        {
+            "universe": "fantasy",
+            "code": "oasis",
+            "name": {
+                "en": "",
+                "es": "Oasis"
+            },
+            "text": {
+                "en": "",
+                "es": "Un desierto lleno de restos de antiguas batallas, con huesos y armas esparcidos por todas partes."
+            },
+            "lore": {
+                "en": "",
+                "es": "Un desierto lleno de restos de antiguas batallas, con huesos y armas esparcidos por todas partes."
+            },
+            "entrance": 2,
+            "reinforcements": 2,
+            "gold": 2,
+            "mana": 1,
+            "terrain": "desert",
+            "expansion": "base",
+            "version": 1
+        }
+    ]
+}

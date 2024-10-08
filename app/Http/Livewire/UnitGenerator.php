@@ -6,7 +6,8 @@ use Livewire\Component;
 
 class UnitGenerator extends Component
 {
-    public string $faction = "-";
+    public string $faction   = "";
+    public string $expansion = "";
 
     public bool $tts      = false;
     public bool $toimage  = false;

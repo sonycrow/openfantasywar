@@ -1,4 +1,14 @@
 @font-face {
+    font-family: "scriptuale-b";
+    src: url("../fonts/scriptuale-bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "scriptuale-s";
+    src: url("../fonts/scriptuale-semibold.otf") format("opentype");
+}
+
+@font-face {
     font-family: "scriptuale";
-    src: url("../fonts/scriptuale.otf") format("opentype");
+    src: url("../fonts/scriptuale-regular.otf") format("opentype");
 }

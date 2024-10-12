@@ -9,7 +9,7 @@
         <div @class(['name', 'name-wounded' => $unit['wounded']])>{{ Str::upper($unit['name']) }}</div>
 
         <div class="line-left"></div>
-        <div @class(['cost'])>{{ $unit['cost'] }}</div>
+        <div @class(['cost', 'cost-one' => $unit['cost'] == 1])>{{ $unit['cost'] }}</div>
         <div class="speed">
             @for($i = 1; $i <= $unit['speed']; $i++)
                 <div></div>

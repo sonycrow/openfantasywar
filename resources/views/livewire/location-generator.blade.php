@@ -18,20 +18,16 @@
             </label>
         </div>
 
-        <div class="mr-4"><label><input wire:model="tts" type="checkbox" class="mr-1"/><span>Formato TTS</span></label>
-        </div>
-        <div class="mr-4"><label><input wire:model="toimage" id="toimage" type="checkbox" class="mr-1"/><span>Generar imágenes</span></label>
-        </div>
-        <div class="mr-4"><label><input wire:model="download" id="download" type="checkbox" class="mr-1"/><span>Descargar imágenes</span></label>
-        </div>
+        <div class="mr-4"><label><input wire:model="tts" type="checkbox" class="mr-1"/><span>Formato TTS</span></label></div>
+        <div class="mr-4"><label><input wire:model="toimage"  id="toimage"  type="checkbox" class="mr-1"/><span>Generar imágenes</span></label></div>
+        <div class="mr-4"><label><input wire:model="download" id="download" type="checkbox" class="mr-1"/><span>Descargar imágenes</span></label></div>
 
-        <button x-on:click="generateImages"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 p-1">
+        <button x-on:click="generateImages" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 p-1">
             Generar
         </button>
     </div>
 
-    {{--    {{ $terrain = 'plains' }}--}}
+{{--    {{ $terrain = 'forest' }}--}}
 
     <div class="grid grid-cols-2" style="width: {{ ($tts ? 288*4 : 756*2) }}px;">
         {{-- Livewire --}}

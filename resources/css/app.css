@@ -1,4 +1,5 @@
 @import "global.css";
+@import "keyword.css";
 
 @import "counter/unit.css";
 @import "counter/unit-titan.css";

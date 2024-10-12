@@ -53,6 +53,8 @@ class LocationTable extends Component
             array("key" => "terrain",        "value" => "Terrain"),
             array("key" => "entrance",       "value" => "Entrance"),
             array("key" => "reinforcements", "value" => "Reinforcements"),
+            array("key" => "gold",           "value" => "Gold"),
+            array("key" => "mana",           "value" => "Mana"),
             array("key" => "symbol",         "value" => "Symbol"),
             array("key" => "exp",            "value" => "Expansion"),
         );
@@ -86,6 +88,8 @@ class LocationTable extends Component
                 "terrain"        => isset($item['terrain']) ? ucfirst($item['terrain']) : null,
                 "entrance"       => $item['entrance'] ?? null,
                 "reinforcements" => $item['reinforcements'] ?? null,
+                "gold"           => $item['gold'] ?? null,
+                "mana"           => $item['mana'] ?? null,
                 "symbol"         => isset($item['symbol']) ? strtoupper($item['symbol']) : null,
                 "exp"            => ucfirst($item['expansion']),
             );

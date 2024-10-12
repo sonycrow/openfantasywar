@@ -1,4 +1,4 @@
-div.main-card div.type-location {
+div.main-card div.card-location {
     position: relative;
     top: 0;
     left: 0;
@@ -8,7 +8,7 @@ div.main-card div.type-location {
     overflow: hidden;
 }
 
-div.main-card div.type-location div.art {
+div.main-card div.card-location div.art {
     position: absolute;
     width:  756px;
     height: 1036px;
@@ -16,7 +16,7 @@ div.main-card div.type-location div.art {
     background-position: center;
 }
 
-div.main-card div.type-location div.name {
+div.main-card div.card-location div.name {
     position: absolute;
     top: 58px;
     left: 58px;
@@ -34,7 +34,7 @@ div.main-card div.type-location div.name {
     text-shadow: 0 0  5px #000, 0 0  5px #000, 0 0  5px #000, 0 0  5px #000;
 }
 
-div.main-card div.type-location div.type {
+div.main-card div.card-location div.type {
     position: absolute;
     top: 560px;
     width:  756px;
@@ -51,10 +51,10 @@ div.main-card div.type-location div.type {
     box-shadow: 0 -4px 10px 0 rgba(0,0,0,0.75);
 }
 
-div.main-card div.type-location div.gold,
-div.main-card div.type-location div.mana,
-div.main-card div.type-location div.entrance,
-div.main-card div.type-location div.terrain {
+div.main-card div.card-location div.gold,
+div.main-card div.card-location div.mana,
+div.main-card div.card-location div.entrance,
+div.main-card div.card-location div.terrain {
     position: absolute;
     width:  80px;
     height: 80px;
@@ -74,7 +74,7 @@ div.main-card div.type-location div.terrain {
     box-shadow: -2px -4px 5px 0 rgba(0,0,0,0.75);
 }
 
-div.main-card div.type-location div.text {
+div.main-card div.card-location div.text {
     position: absolute;
     top:    610px;
     width:  756px;
@@ -83,7 +83,7 @@ div.main-card div.type-location div.text {
     border-bottom: 4px solid rgb(255,255,255);
 }
 
-div.main-card div.type-location div.text div.terrain-icon {
+div.main-card div.card-location div.terrain-icon {
     position: absolute;
     width:  756px;
     height: 300px;
@@ -93,8 +93,8 @@ div.main-card div.type-location div.text div.terrain-icon {
     opacity: 0.2;
 }
 
-div.main-card div.type-location div.text div.desc,
-div.main-card div.type-location div.text div.lore {
+div.main-card div.card-location div.text div.desc,
+div.main-card div.card-location div.text div.lore {
     width:  756px;
     height: 224px;
     padding: 24px;
@@ -104,7 +104,7 @@ div.main-card div.type-location div.text div.lore {
     text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
 }
 
-div.main-card div.type-location div.text div.lore {
+div.main-card div.card-location div.text div.lore {
     top: 230px;
     width: 756px;
     height: 60px;
@@ -119,50 +119,68 @@ div.main-card div.type-location div.text div.lore {
     display: flex;
 }
 
-div.main-card div.type-location div.text div.lore div {
+div.main-card div.card-location div.text div.lore div {
     align-self: flex-end;
+    width: 100%;
 }
 
-div.main-card div.type-location div.gold {
-    top: 520px;
-    left: 32px;
+div.main-card div.card-location div.gold,
+div.main-card div.card-location div.mana {
+    top: 494px;
+    width: 94px;
+    height: 94px;
     text-shadow: none;
+    font-size: 84px;
+    line-height: 82px;
+    z-index: 20;
+}
+
+div.main-card div.card-location div.gold {
+    left: 32px;
     background-color: rgba(229, 205, 102, 1);
     border: 4px solid #59350a;
     color: #59350a;
-    z-index: 20;
 }
 
-div.main-card div.type-location div.mana {
-    top: 520px;
-    text-shadow: none;
+div.main-card div.card-location div.mana {
     background-color: rgba(156, 203, 255, 1);
     border: 4px solid #046ac4;
     color: #046ac4;
-    z-index: 20;
 }
 
-div.main-card div.type-location div.entrance {
+div.main-card div.card-location div.one {
+    text-align: left;
+    padding-left: 18px;
+}
+
+div.main-card div.card-location div.terrain {
     top: 934px;
     left: 32px;
     border-radius: 18px;
 }
 
-div.main-card div.type-location div.terrain {
+div.main-card div.card-location div.entrance {
     top: 934px;
     border-radius: 18px;
+    font-size: 72px;
+    line-height: 70px;
 }
 
-div.main-card div.type-location-plains   div.name, div.main-card div.type-location-plains   div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(239,165,62,0.9) 30%, rgba(239,165,62,0.9) 70%, rgba(255,255,255,0.8) 100%); }
-div.main-card div.type-location-forest   div.name, div.main-card div.type-location-forest   div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(42,120,15,0.9) 30%, rgba(42,120,15,0.9) 70%, rgba(255,255,255,0.8) 100%); }
-div.main-card div.type-location-water    div.name, div.main-card div.type-location-water    div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(3,91,198,0.9) 30%, rgba(3,91,198,0.9) 70%, rgba(255,255,255,0.8) 100%); }
-div.main-card div.type-location-mountain div.name, div.main-card div.type-location-mountain div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(144,92,49,0.9) 30%, rgba(144,92,49,0.9) 70%, rgba(255,255,255,0.8) 100%); }
-div.main-card div.type-location-desert   div.name, div.main-card div.type-location-desert   div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(232, 218, 66, 0.9) 30%, rgba(232, 218, 66,0.9) 70%, rgba(255,255,255,0.8) 100%); }
-div.main-card div.type-location-city     div.name, div.main-card div.type-location-city     div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(42,42,42,0.9) 30%, rgba(42,42,42,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.card-location div.entrance-one {
+    text-align: left;
+    padding-left: 16px;
+}
 
-div.main-card div.type-location-plains   div.terrain, div.main-card div.type-location-plains   div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_plains.png'); }
-div.main-card div.type-location-forest   div.terrain, div.main-card div.type-location-forest   div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_forest.png'); }
-div.main-card div.type-location-water    div.terrain, div.main-card div.type-location-water    div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_water.png'); }
-div.main-card div.type-location-mountain div.terrain, div.main-card div.type-location-mountain div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_mountain.png'); }
-div.main-card div.type-location-desert   div.terrain, div.main-card div.type-location-desert   div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_desert.png'); }
-div.main-card div.type-location-city     div.terrain, div.main-card div.type-location-city     div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_city.png'); }
+div.main-card div.card-location-plains div.name,   div.main-card div.card-location-plains div.type   { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(239,165,62,0.9) 30%, rgba(239,165,62,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.card-location-forest div.name,   div.main-card div.card-location-forest div.type   { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(42,120,15,0.9) 30%, rgba(42,120,15,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.card-location-water div.name,    div.main-card div.card-location-water div.type    { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(3,91,198,0.9) 30%, rgba(3,91,198,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.card-location-mountain div.name, div.main-card div.card-location-mountain div.type { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(144,92,49,0.9) 30%, rgba(144,92,49,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.card-location-desert div.name,   div.main-card div.card-location-desert div.type   { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(232, 218, 66, 0.9) 30%, rgba(232, 218, 66,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+div.main-card div.card-location-city div.name,     div.main-card div.card-location-city div.type     { background: linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(42,42,42,0.9) 30%, rgba(42,42,42,0.9) 70%, rgba(255,255,255,0.8) 100%); }
+
+div.main-card div.card-location-plains div.terrain,   div.main-card div.card-location-plains div.text div.terrain-icon   { background-image: url('/resources/img/icon/terrain_plains.png'); }
+div.main-card div.card-location-forest div.terrain,   div.main-card div.card-location-forest div.text div.terrain-icon   { background-image: url('/resources/img/icon/terrain_forest.png'); }
+div.main-card div.card-location-water div.terrain,    div.main-card div.card-location-water div.text div.terrain-icon    { background-image: url('/resources/img/icon/terrain_water.png'); }
+div.main-card div.card-location-mountain div.terrain, div.main-card div.card-location-mountain div.text div.terrain-icon { background-image: url('/resources/img/icon/terrain_mountain.png'); }
+div.main-card div.card-location-desert div.terrain,   div.main-card div.card-location-desert div.text div.terrain-icon   { background-image: url('/resources/img/icon/terrain_desert.png'); }
+div.main-card div.card-location-city div.terrain,     div.main-card div.card-location-city div.text div.terrain-icon     { background-image: url('/resources/img/icon/terrain_city.png'); }

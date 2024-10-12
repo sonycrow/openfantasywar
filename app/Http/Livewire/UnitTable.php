@@ -58,8 +58,6 @@ class UnitTable extends Component
             array("key" => "atk",      "value" => "Attack"),
             array("key" => "range",    "value" => "Range"),
             array("key" => "cost",     "value" => "Cost"),
-            array("key" => "gold",     "value" => "Gold"),
-            array("key" => "mana",     "value" => "Mana"),
             array("key" => "symbol",   "value" => "Symbol"),
             array("key" => "exp",      "value" => "Expansion"),
         );
@@ -93,8 +91,6 @@ class UnitTable extends Component
                 "atk"       => $item['atk']   ?? null,
                 "range"     => $item['range'] ?? null,
                 "cost"      => $item['cost']  ?? null,
-                "gold"      => $item['gold']  ?? null,
-                "mana"      => $item['mana']  ?? null,
                 "symbol"    => isset($item['symbol']) ? strtoupper($item['symbol']) : null,
                 "exp"       => ucfirst($item['expansion']),
             );

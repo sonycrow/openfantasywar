@@ -29,9 +29,9 @@ class LocationServiceProvider extends ServiceProvider
 
         foreach ($codex['location'] as $item)
         {
-            $item['type'] = "location";
+            $item['type'] = 'location';
 
-            $item['id']  = strtolower($item['type']) . "_";
+            $item['id']  = strtolower($item['expansion']) . "_";
             $item['id'] .= str_replace(" ", "-", strtolower($item['code'])) . "_";
 
             $item['id'] = substr($item['id'], 0, -1); // Eliminamos el _ final
@@ -81,10 +81,22 @@ class LocationServiceProvider extends ServiceProvider
     private static function getCurrentLanguage(array $item): array
     {
         $item['name'] = $item['name'][App::currentLocale()];
-        $item['text'] = $item['text'][App::currentLocale()];
+        $item['text'] = self::translateText($item['text'][App::currentLocale()]);
         $item['lore'] = $item['lore'][App::currentLocale()];
 
         return $item;
     }
 
+    private static function translateText(string $text): string
+    {
+        $text = preg_replace_callback(
+            '/\{(.*?)}/mi',
+            function ($m) {
+                return "{" . $m[1] . "|" . __("keywords." . $m[1]) . "}";
+            },
+            $text
+        );
+
+        return $text;
+    }
 }

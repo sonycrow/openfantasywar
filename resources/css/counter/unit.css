@@ -60,6 +60,11 @@ div.main-counter div.cost {
     color: #59350a;
 }
 
+div.main-counter div.cost-one {
+    text-align: left;
+    padding-left: 18px;
+}
+
 div.main-counter div.name {
     position: absolute;
     z-index: 11;
